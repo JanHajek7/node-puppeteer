@@ -5,7 +5,6 @@ import puppeteer from "puppeteer";
 
   const page = await browser.newPage();
 
-  // Angular app serve
   await page.goto("http://localhost:4200/");
 
   const delay = (milliseconds) =>
